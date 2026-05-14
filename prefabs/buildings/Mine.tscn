@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://fywms4ihmoe8"]
+
+[ext_resource type="Script" uid="uid://bo5yjuy1ios2a" path="res://prefabs/buildings/mine.gd" id="1_7x743"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_7x743")
