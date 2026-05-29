@@ -7,6 +7,7 @@ var faith: int = 0
 var supplies: int = 100
 var gold: int = 100
 var happiness: float = 1.0
+var turn: int = 0
 
 var religionLvl: int = 1
 var requirementsToLvlUp: Array[Dictionary] = [{"pop": 8}, {"pop": 16}, {"pop": 24}, {"pop": 32}, {"pop": 40}, {"pop":48}, {"pop": 56}, {"pop": 74}, {"pop": 82}, {"pop": 90}, {"pop": 98}, {"pop": 110}]
@@ -15,7 +16,7 @@ var requirementIndex:= 0
 var happinessLossBonus: float = 1.0
 var happinessGainBonus: float = 1.0
 
-var currentBuilding = null#"None"
+var currentBuilding = null
 var currentFollower = null
 
 var currentBuildType = null
