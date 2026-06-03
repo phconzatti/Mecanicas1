@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5ctjucp0pmit"]
+
+[ext_resource type="Script" uid="uid://brihwa0euvu8o" path="res://prefabs/buildings/housing.gd" id="1_sdpab"]
+
+[node name="House" type="Node2D" groups=["houses"]]
+script = ExtResource("1_sdpab")

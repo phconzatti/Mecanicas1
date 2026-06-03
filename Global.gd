@@ -29,3 +29,6 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
+
+func add_gold(total_produced: int) -> void:
+	gold += total_produced

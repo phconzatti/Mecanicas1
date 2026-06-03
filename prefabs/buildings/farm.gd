@@ -7,7 +7,7 @@ var max_workers: int = 5
 var total_production: float = 0
 var worker_skill_modifier: float = 1
 
-func _mine_production() -> void:
+func _farm_production() -> void:
 	total_production = current_workers * base_production * worker_skill_modifier
 
 # Called when the node enters the scene tree for the first time.
@@ -20,5 +20,5 @@ func _process(delta: float) -> void:
 	pass
 
 func produce() -> float:
-	_mine_production()
+	_farm_production()
 	return total_production

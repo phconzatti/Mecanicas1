@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bne76504moeco"]
+
+[ext_resource type="Script" uid="uid://tej5w7vuod7c" path="res://prefabs/buildings/lumbermill.gd" id="1_utt4t"]
+
+[node name="Lumbermill" type="Node2D" groups=["lumbers"]]
+script = ExtResource("1_utt4t")

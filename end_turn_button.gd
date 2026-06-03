@@ -1,7 +1,7 @@
 extends Button
 
-signal confirmEndTurn
+signal confirm_end_turn
 
 func _on_pressed() -> void:
-	emit_signal("confirmEndTurn")
+	emit_signal("confirm_end_turn")
 	print("Sinal enviado")

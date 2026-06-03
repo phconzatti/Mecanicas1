@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bm7i8mrawto03"]
+
+[ext_resource type="Script" uid="uid://cpqu2oxtt526w" path="res://prefabs/buildings/farm.gd" id="1_is56x"]
+
+[node name="Farm" type="Node2D" groups=["farms"]]
+script = ExtResource("1_is56x")
