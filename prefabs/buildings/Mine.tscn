@@ -4,3 +4,7 @@
 
 [node name="Mine" type="Node2D" groups=["mines"]]
 script = ExtResource("1_7x743")
+
+[node name="ColorRect" type="ColorRect" parent="." groups=["mines"]]
+offset_right = 40.0
+offset_bottom = 40.0

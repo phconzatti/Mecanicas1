@@ -10,7 +10,7 @@ func _produce() -> void:
 	for child in self.get_children():
 		if child.is_in_group("mines"):
 			total_gold_produced += child.produce()
-			Global.add_gold(roundi(total_gold_produced))
+			Global.add_gold(total_gold_produced)
 			total_gold_produced = 0
 
 func _on_turn_ended() -> void:

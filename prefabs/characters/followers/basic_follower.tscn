@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbis18045y5bd"]
+
+[ext_resource type="Script" uid="uid://dau5mjnl6e6qo" path="res://prefabs/characters/followers/basic_follower.gd" id="1_s44or"]
+
+[node name="BasicFollower" type="Node2D" groups=["follower"]]
+script = ExtResource("1_s44or")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

@@ -5,7 +5,7 @@ var totalBuildings: int = 0
 var wood: int = 100
 var faith: int = 0
 var supplies: int = 100
-var gold: int = 100
+var gold: float = 100
 var happiness: float = 1.0
 var turn: int = 0
 
@@ -30,5 +30,5 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-func add_gold(total_produced: int) -> void:
+func add_gold(total_produced: float) -> void:
 	gold += total_produced
